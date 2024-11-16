@@ -75,7 +75,9 @@ fun FormulirView(
             },
             placeholder = {
                 Text("Masukkan NIM Anda")
-            }
+            },
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+
         )
         Spacer(modifier = Modifier .padding(20.dp))
 
