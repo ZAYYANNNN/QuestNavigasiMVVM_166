@@ -31,11 +31,12 @@ fun FormulirView(
 ) {
 
     var nama by remember { mutableStateOf("") }
+    var NIM by remember { mutableStateOf("") }
     var email by remember { mutableStateOf("") }
     var noHp by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
     var jenisK by remember { mutableStateOf("") }
-    var listData: MutableList<String> = mutableListOf(nama, jenisK, alamat)
+    var listData: MutableList<String> = mutableListOf(nama, jenisK, alamat, NIM, email, noHp)
 
 
 
@@ -63,8 +64,6 @@ fun FormulirView(
             }
         )
         Spacer(modifier = Modifier .padding(20.dp))
-
-
 
         Row (modifier = Modifier.padding(5.dp),
             verticalAlignment = Alignment.CenterVertically)
