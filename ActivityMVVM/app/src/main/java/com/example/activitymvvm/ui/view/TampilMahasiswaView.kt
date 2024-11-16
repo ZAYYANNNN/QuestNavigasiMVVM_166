@@ -30,6 +30,10 @@ fun TampilMahasiswaView(
             isinya = mhs.NIM
         )
         TampilData(
+            judul = "No HP",
+            isinya = mhs.noHp
+        )
+        TampilData(
             judul = "Alamat",
             isinya = mhs.alamat
         )
