@@ -22,6 +22,7 @@ class MahasiswaViewModel: ViewModel(){
                 alamat = ls[2],
                 NIM = ls[3],
                 email = ls[4],
+                noHp = ls[5]
             )
         }
     }
