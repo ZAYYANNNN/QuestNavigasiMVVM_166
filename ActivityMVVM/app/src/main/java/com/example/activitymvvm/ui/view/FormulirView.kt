@@ -64,6 +64,7 @@ fun FormulirView(
         )
         Spacer(modifier = Modifier .padding(20.dp))
 
+
         Row (modifier = Modifier.padding(5.dp),
             verticalAlignment = Alignment.CenterVertically)
         {
