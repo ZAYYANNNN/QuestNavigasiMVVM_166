@@ -65,6 +65,20 @@ fun FormulirView(
         )
         Spacer(modifier = Modifier .padding(20.dp))
 
+        TextField(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(5.dp),
+            value = NIM,
+            onValueChange = {NIM = it},
+            label = { Text("NIM")
+            },
+            placeholder = {
+                Text("Masukkan NIM Anda")
+            }
+        )
+        Spacer(modifier = Modifier .padding(20.dp))
+
         Row (modifier = Modifier.padding(5.dp),
             verticalAlignment = Alignment.CenterVertically)
         {
