@@ -14,6 +14,7 @@ class MahasiswaViewModel: ViewModel(){
 
     fun saveDataMahasiswa(
         ls : MutableList<String>
+
     ){
         _uiState.update { data ->
             data.copy(
